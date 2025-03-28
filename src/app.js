@@ -29,28 +29,6 @@ const joinWords2 = () => {
   return dominios;
 }
 
-/*const joinWords = () => {
-  let dominios = [];
-  for (let i = 0; i < pronoum.length; i++) {
-    for (let j = 0; j < adj.length; j++) {
-      for (let k = 0; k < noum.length; k++) {
-        for (let m = 0; m < extensions.length; m++) {
-          let dominio = pronoum[i] + adj[j] + noum[k] + extensions[m];
-          dominios.push(dominio);
-
-
-
-        }
-
-      }
-
-    }
-
-  }
- 
-  return dominios.join('\n');
-}
-  */
 
 window.onload = function () {
   //write your code here
